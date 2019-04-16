@@ -51,7 +51,7 @@ static PyObject * version(PyObject *self) {
 static PyMethodDef lureMethods[] = {
     {"compile", reCompile, METH_VARARGS, "Compile an rule, expr = compile('CITY_ID == 1') "},
     {"eval", reEval, METH_VARARGS, "Evaluate expression like eval(expr, ctx) "},
-    {"version", (PyCFunction)version, METH_NOARGS, "return the version"},
+    {"version", (PyCFunction)version, METH_NOARGS, "Return the version string"},
     {NULL, NULL, 0, NULL}
 };
 
