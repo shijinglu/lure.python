@@ -29,7 +29,7 @@ module = Extension(
         'clib/y.tab.c',
     ],
     include_dirs=["clib/"],
-    )
+)
 
 setup(
     name = "Lure",

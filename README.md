@@ -1,2 +1,2 @@
 # lure.python
-Lu's Rule Engine in Python
+Python Bindings of [lure.c](https://github.com/shijinglu/lure.c)
